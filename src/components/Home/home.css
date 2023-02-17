@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    padding:30px ;
+}
+
+.container{
+    width: 250px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+
+
+}
+.info-box{
+    display: flex;
+    margin: 10px;
+
+}
+.rating{
+    float: left;
+}
+.link{
+    float:right;
+}
+.detail-btn{
+
+    float: right;
+    border: none;
+    border-radius: 5px;
+    padding:5px;
+
+    margin-left: 30px;
+    background:#584e6b;
+    cursor: pointer;
+}
+.image{
+    width: 250px;
+}

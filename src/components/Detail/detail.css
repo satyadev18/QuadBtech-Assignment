@@ -1,0 +1,55 @@
+.detail{
+    display:flex;
+    padding: 15px;
+    margin: 10px;
+    justify-content: center;
+
+}
+@media only screen and (max-width:600px) {
+    .detail{
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+.detail-image{
+    height: 400px;
+    width: 200px;
+}
+
+.movie-name{
+    text-align: center;
+
+}
+.c{
+    display: flex;
+    margin: 30px;
+}
+.ticket-btn{
+    float: right;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: aqua;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position:sticky;
+    margin-left: 30px;
+}
+
+.summary{
+    margin-left: 20px;
+    font-size: 22px;
+}
+.movie-data{
+
+    margin: 10px;
+    margin-left: 20px;
+
+}
+.movie-data span{
+    font-weight: 200;
+}

@@ -1,0 +1,31 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.form-data{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px ;
+}
+
+.form-data input{
+    width: 290px;
+    height: 30px;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.form-data label{
+    margin-top: 20px;
+    text-align: left;
+}
+.form-data button{
+    margin-top: 15px;
+    
+    align-items: center;
+}

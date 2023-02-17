@@ -1,0 +1,14 @@
+.navbar{
+display: flex;
+position: fixed;
+cursor: pointer;
+
+
+
+}
+.navbar h1{
+    color: aqua;
+}
+.navbar h2{
+    color:rgb(175, 212, 40) ;
+}
